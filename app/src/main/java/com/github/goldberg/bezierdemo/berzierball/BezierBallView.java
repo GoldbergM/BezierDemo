@@ -1,4 +1,4 @@
-package com.github.goldberg.bezierdemo;
+package com.github.goldberg.bezierdemo.berzierball;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -16,7 +16,7 @@ import android.view.animation.AccelerateDecelerateInterpolator;
  * Created by mengzhun on 2016/10/24.
  */
 
-public class BezierView extends View {
+public class BezierBallView extends View {
 
     private Paint mPaint;
     private Path mPath;
@@ -42,15 +42,15 @@ public class BezierView extends View {
     private int currentOrientation = MOVE_RIGHT;
 
 
-    public BezierView(Context context) {
+    public BezierBallView(Context context) {
         this(context, null, 0);
     }
 
-    public BezierView(Context context, AttributeSet attrs) {
+    public BezierBallView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public BezierView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public BezierBallView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
     }

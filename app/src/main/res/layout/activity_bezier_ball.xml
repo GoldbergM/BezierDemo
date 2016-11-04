@@ -5,13 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.github.goldberg.bezierdemo.MainActivity">
+    tools:context="com.github.goldberg.bezierdemo.berzierball.BezierBallActivity">
 
-    <com.github.goldberg.bezierdemo.BezierView
-        android:id="@+id/bezierView"
-        android:layout_width="match_parent"
-        android:layout_height="0dip"
-        android:layout_weight="1.0"
+    <com.github.goldberg.bezierdemo.berzierball.BezierBallView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
         android:background="@android:color/background_dark" />
-
 </LinearLayout>
